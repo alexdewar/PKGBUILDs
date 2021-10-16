@@ -1,0 +1,25 @@
+pkgbase = genn
+	pkgdesc = GeNN: GPU-enhanced neural networks
+	pkgver = 4.5.1
+	pkgrel = 1
+	epoch = 2
+	url = https://github.com/genn-team/genn
+	install = genn.install
+	arch = x86_64
+	license = GPL
+	makedepends = doxygen
+	makedepends = doxypypy
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python-numpy
+	makedepends = swig
+	depends = cuda
+	optdepends = python: for pygenn
+	optdepends = python-numpy: for pygenn
+	optdepends = spinecreator: for spineml2genn
+	options = staticlibs
+	options = !emptydirs
+	source = https://github.com/genn-team/genn/archive/4.5.1.tar.gz
+	sha256sums = f9c3191cd430aac87d2c47e9a4c206e495e6dfc26187e51dc300ff23cd961ead
+
+pkgname = genn
